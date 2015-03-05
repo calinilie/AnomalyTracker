@@ -1,0 +1,9 @@
+digraph G1 {
+  concentrate = true;
+  n2 [label="com.calin.anomalytracker.businesslogic.restservices.AnomalyService"];
+  n2 -> DataAccess;
+  n2 -> AnomalyAutoBeanFactoryWrapper;
+  n3 [label="members/com.calin.anomalytracker.businesslogic.restservices.AnomalyService"];
+  n3 -> DataAccess;
+  n3 -> AnomalyAutoBeanFactoryWrapper;
+}
