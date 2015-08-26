@@ -23,8 +23,6 @@ srcasciidocbuild
 target
 
 # Eclipse artifacts, including WTP generated manifests
-.classpath
-.project
 spring-srcmainjavaMETA-INFMANIFEST.MF
 .metadata
 Servers
@@ -44,3 +42,6 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+
+.class
+RemoteSystemsTempFiles
